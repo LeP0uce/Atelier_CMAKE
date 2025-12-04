@@ -9,6 +9,7 @@ jobs:
           last_directory=$(basename ${{ runner.workspace }})
           git clone https://github.com/${{ github.repository }}.git
           cd ./$last_directory
+          rm -rf build
           mkdir build
           cd build
           cmake ..
@@ -24,6 +25,7 @@ jobs:
           last_directory=$(basename ${{ runner.workspace }})
           git clone https://github.com/${{ github.repository }}.git
           cd ./$last_directory
+          rm -rf build
           mkdir build
           cd build
           cmake ..
