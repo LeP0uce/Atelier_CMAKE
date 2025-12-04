@@ -25,6 +25,7 @@ jobs:
 
       - name: Build
         run: |
+          rm -rf build
           mkdir -p build
           cd build
           cmake ..
@@ -110,6 +111,7 @@ jobs:
 
       - name: Build
         run: |
+          rm -rf build
           mkdir -p build
           cd build
           cmake ..
