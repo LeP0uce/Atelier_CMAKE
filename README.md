@@ -138,4 +138,6 @@ Capitalisation
 Vous avez apris au travers de cet atelier comment créer et automatiser des tests grâce aux actions Github. Les actions Github sont des outils très puissants pour les devellopeurs. Vous pouvez à l'aide des actions, compiler, tester ou déployer vos solutions en production.  
 
 L'utilité des scripts d'actions (C'est à dire des scripts exécutés lors des Commits) est très importante mais sortes malheureusement du cadre de cet atelier faute de temps. Toutefois, je vous invites à découvrir cet outil via les différentes sources du Web (Google, ChatGPT, etc..).  
+
+<!-- Test pour déclencher l'action avec les artefacts -->
   
